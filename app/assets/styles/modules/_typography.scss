@@ -1,0 +1,43 @@
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.titleone {
+  font-size: 6em;
+  margin-bottom: 1.5em;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.titleone span {
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+}
+
+.titleone-cta {
+  margin: 0 0 .5em;
+}
+
+@include atMedium {
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .titleone {
+    font-size: 3.6rem;
+  }
+}

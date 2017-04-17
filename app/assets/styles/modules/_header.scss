@@ -1,0 +1,64 @@
+/*header */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+//.logo {
+//  @include atMedium {
+//    float: left;
+//  }
+//}
+
+//.nav {
+//  @include atMedium {
+//    float:right;
+//  }
+//}
+//@include atMedium {
+//  img .logo {
+//    float:left;
+//  }
+
+//  nav {
+//    float: right;
+//  }
+//}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: .5em;
+  color: #FFF;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #DDD;
+}
+
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+  nav {
+    float: right;
+  }
+}

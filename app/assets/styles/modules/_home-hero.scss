@@ -1,0 +1,91 @@
+/*home-hero*/
+
+.home-hero {
+  background-image: url('../assets/img/knight.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width: 880px) {
+  .home-hero {
+    height: 100vh;
+    padding-top: 35vh;
+  }
+}
+
+
+.home-about-textbox {
+  background-color: #232323;
+  padding: 4em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #00ff6c;
+  outline-offset: -2.5em;
+  color: #FFF;
+  position: relative;
+}
+
+.home-about-textbox h1 {
+  color: #00ff6c;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: .75em;
+  background: #232323;
+  padding: 0 .145em;
+}
+
+@media (min-width: 25rem) {
+  h1 {
+    font-size: 2rem;
+  }
+  .home-about-textbox h1 {
+    top: .6em;
+    padding: 0 .325em;
+  }
+}
+
+
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-about {
+    background-image: url("../assets/img/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10em;
+  }
+  .home-about-textbox {
+    width: 50%;
+    padding: 7em;
+    margin-top: 15%;
+    outline-offset: -3.75em;
+    margin-left: -5%;
+    top: -5em;
+    text-align: left;
+    box-shadow: 0 0 4em 0 rgba(0, 0, 0,.3);
+  }
+
+  .home-about-textbox h1 {
+    top: .75em;
+    left: 6rem;
+    transform: translateX(0 );
+  }
+
+}
+
+//.home-about {
+
+//  background-size: cover;
+//  background-position: center;
+//  padding: .5em;
+//}
+
+//.home-about-textbox {
+//  width: 40%;
+//  margin-left: -2.5%;
+//}

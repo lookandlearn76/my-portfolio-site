@@ -5,8 +5,26 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  margin: 1em;
+  margin: 0em;
 }
+
+#navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #232323;
+  color: white;
+  opacity: .95;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  margin-bottom: 70px;
+}
+
+//nav li {
+//  color: #FFF;
+//  text-decoration: none;
+//  padding: 15px;
+//}
 
 //.logo {
 //  @include atMedium {
@@ -30,14 +48,18 @@ header {
 //}
 
 nav ul {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   list-style: none;
+  background-color: #43C0F6;
+  opacity: 1;
 }
 
 nav li {
   display: inline-block;
   margin: 1em;
+  background-color: #43C0F6;
+  opacity: 1.5;
 }
 
 nav a {
@@ -47,18 +69,20 @@ nav a {
   font-size: 1rem;
   padding: .5em;
   color: #FFF;
+  opacity: 1.5;
 }
 
 nav a:hover,
 nav a:focus {
   color: #DDD;
+  background-color: #232323;
 }
 
 @media (min-width: 60rem) {
-  .logo {
-    float: left;
-  }
-  nav {
+  #nav-right {
     float: right;
+  }
+  #nav-left {
+    float:left;
   }
 }

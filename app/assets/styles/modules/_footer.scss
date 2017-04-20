@@ -1,6 +1,16 @@
 footer {
+  position: relative;
   background: #232323;
   color: #fff;
-  text-align: left;
   padding: 5em 0;
+}
+
+footer h1, h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+footer .button {
+  margin-left: 15px;
 }

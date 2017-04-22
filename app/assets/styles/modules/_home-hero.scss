@@ -1,11 +1,14 @@
 /*home-hero*/
 
 .home-hero {
-  background-image: url('../assets/img/knight.jpg');
+  background-image: url('../assets/img/knight2.png');
   background-size: cover;
   background-position: center center;
   padding: 10em 0;
   color: #FFF;
+  @include atLarge {
+    background-image: url('../assets/img/knight3.png');
+  }
 }
 
 @media (min-width: 880px) {
@@ -16,7 +19,7 @@
 }
 
 #aboutSection {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .about-textbox {
   background-color: #232323;
@@ -57,18 +60,21 @@
   }
 
   #aboutSection {
-    background-image: url("../assets/img/code.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 10em;
+    @include atLarge{
+      background-image: url("../assets/img/code1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 10em;
+    }
   }
 
   .about-textbox {
+    position:relative;
   //  padding: 7em;
     margin-top: 5%;
   //  outline-offset: -3.75em;
     margin-left: 5%;
-    top: 15px;
+    top: 65px;
     text-align: left;
     box-shadow: 0 0 4em 0 rgba(0, 0, 0,.3);
     @include atLarge {

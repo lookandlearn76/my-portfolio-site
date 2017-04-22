@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width, initial-scale=1">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+  </head>
+  <body>
+
+    <header id="site-header">
+      <div class="menu__wrapper">
+        <div class="menu-icon">
+          <div class="menu-icon__middle"></div>
+        </div>
+      </div>
+
+        <div id="navbar">
+          <nav id="nav-left">
+            <ul>
+              <li><a class="first" id="home" href="#homeSection">Home</a></li>
+            </ul>
+          </nav>
+          <nav id="nav-right">
+            <ul>
+              <li><a class="first" id="about" href="#aboutSection">About</a></li>
+              <li><a class="first" id="work" href="#workSection">Gallery</a></li>
+              <li><a class="first" id="toolbox" href="#toolboxSection">Toolbox</a></li>
+              <li><a class="first" id="contact" href="#contactSection">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <section id="homeSection" class="home-hero">
+      <div class="container">
+        <h1 class="titleone">Mark Hayden - Web Developer
+          <span>I'm battle ready - and I'm on your side</span>
+        </h1>
+        <ul>
+          <li><a id="work" href="#workSection" class="first button button-accent">See my work</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="aboutSection">
+      <div class="container about">
+        <div class="about-textbox">
+          <h1>About me</h1>
+          <p><strong>Okay</strong>, so I don't really dress up in armour, but when it comes to tackling your web-related needs - I do have quite an armoury. My name is Mark (although somebody wrote Christopher on my birth certificate). I'm a freelance(alot) web developer with a focus on Javascript and now React.js. I'm an equal left/right brain thinker - creative enough to design while practical enough to code. I'm basically an un-pretentious artist that joined the army once, got married, had kids and managed to change enough diapers to get practical. Making cool stuff on the web was obviously a natural progression for me.</p>
+        </div>
+
+      </section>
+    </div>
+
+    <section id="workSection" class="cta clearfix">
+
+      <section class="portfolio">
+        <h1>Clients and Projects</h1>
+        <!-- portfolio item number 1 -->
+        <figure class="port-item">
+          <img src="assets/img/Pentland-screenshot.png" alt="Pentland Roadhouse">
+          <figcaption class="item-description">
+            <p>The Pentland Roadhouse</p>
+            <a href="http://www.pentlandroadhouse.com" class="button button-accent button-small" target="_blank">Responsive bespoke website for Midlothian Pub</a>
+          </figcaption>
+        </figure>
+        <!-- portfolio item number 2 -->
+        <figure class="port-item">
+          <img src="assets/img/rgb-color-game.png" alt="RGB color game">
+          <figcaption class="item-description">
+            <p>RGB Color Game</p>
+            <a href="https://lookandlearn76.github.io/rgb_color_game/" target="_blank" class="button button-accent button-small">Game to test your RGB color knowledge</a>
+          </figcaption>
+        </figure>
+        <!-- portfolio item number 3 -->
+        <figure class="port-item">
+          <img src="assets/img/todo-list-app.png" alt="To do list application">
+          <figcaption class="item-description">
+            <p>To-do list app</p>
+            <a href="https://lookandlearn76.github.io/todo-list-app/" target="_blank" class="button button-accent button-small">To-do list application</a>
+          </figcaption>
+        </figure>
+        <!-- portfolio item number 4 -->
+        <figure class="port-item">
+          <img src="assets/img/Travel-website.png" alt="portfolio item">
+          <figcaption class="item-description">
+            <p>Travel Website</p>
+            <a href="https://lookandlearn76.github.io/travel-website/" target="_blank" class="button button-accent button-small">Fully responsive Travel Website</a>
+          </figcaption>
+        </figure>
+        <!-- portfolio item number 5 -->
+        <figure class="port-item">
+          <img src="assets/img/purrfect-match-screenshot.png" alt="Purrfect match landing page">
+          <figcaption class="item-description">
+            <p>Purrfect Match</p>
+            <a href="https://lookandlearn76.github.io/purrfect-match/" target="_blank" class="button button-accent button-small">Cat refuge landing page</a>
+          </figcaption>
+        </figure>
+        <!-- portfolio item number 6 -->
+        <figure class="port-item">
+          <img src="assets/img/rhitchcock1.png" alt="HL Stair - spiral staircases">
+          <figcaption class="item-description">
+            <p>HL STAIR - SPIRAL STAIRCASES</p>
+            <a href="assets/img/rhitchcock1.png" target="_blank" class="button button-accent button-small">Website pending for spiral staircase company</a>
+          </figcaption>
+        </figure>
+
+      </section>
+    </section>
+
+
+    <section id="toolboxSection" class="clearfix" data-matching-link="#toolbox-link">
+      <div class="container wrapper">
+        <h2 class="section-title"><span class="icon icon--star section-title__icon"></span>Some contents of my toolbox<strong> </strong></h2>
+        <p>This isn't an exhaustive list but it gives some idea of what i've worked or am working with. I'm neither an expert, nor a beginner - I'm somewhere in-between. I just keep trucking on, learning more so that every day I get an "ah ha" moment. If what you see below doesn't suit the project you have - Lets talk about it. I'm always open to learning new things.</p>
+        <div class="row row--gutters-large">
+
+          <div class="row__medium-6">
+            <div class="feature-item">
+              <span class="icon icon--rain feature-item__icon"></span>
+              <h3 class="feature-item__title">HTML/CSS/Javascript</h3>
+              <p>HTML5 for markup, CSS3 for styling and Javascript or object-orientated inter-activity. Just starting to get my head around ES6 with Babel.js</p>
+            </div>
+            <div class="feature-item">
+              <span class="icon icon--globe feature-item__icon"></span>
+              <h3 class="feature-item__title">Gulp.js</h3>
+              <p>The build tool that&rsquo;s increasing in popularity due to it&rsquo;s speed and ease at automating the boring stuff.</p>
+            </div>
+          </div>
+          <div class="row__medium-6">
+            <div class="feature-item">
+              <span class="icon icon--wifi feature-item__icon"></span>
+              <h3 class="feature-item__title">Sass and PostCSS</h3>
+              <p>Sass is the most popular pre-processor. PostCSS - the new post-processor is the fastest to compile of all pre and post-processors. Both allow a more modular, organized and maintainable CSS build.</p>
+            </div>
+            <div class="feature-item">
+              <span class="icon icon--fire feature-item__icon"></span>
+              <h3 class="feature-item__title">Node.js and NPM</h3>
+              <p>Node.js - The platform built by Google that introduced Javascript to the server and exploded into the largest ecosystem of open source libraries in the world with NPM - the Node Package Manager</p>
+            </div>
+            <div class="feature-item">
+              <span class="icon icon--fire feature-item__icon"></span>
+              <h3 class="feature-item__title">Git and Github</h3>
+              <p>Git - the most popular version control system for project history tracking and collaboration through feature branches.Github is the repository hosting service used with each git project.</p>
+            </div>
+            <div class="feature-item">
+              <span class="icon icon--fire feature-item__icon"></span>
+              <h3 class="feature-item__title">React.js and Meteor</h3>
+              <p>React.js is the open source Javascript library made by the FaceBook team for building User Interfaces. Meteor is the full-stack javascript platform for making Angular2 and React projects easier. It comes with well organized build tools and its own version of Meteor specific NPM called Atmosphere.js.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta clearfix">
+      <div class="container">
+        <h1 class="titleone titleone-cta">Like what you see?
+          <span>Then what are you waiting for?</span>
+        </h1>
+        <a href="" class="button button-dark">Hire me</a>
+      </div>
+    </section>
+    <section id="contactSection">
+      <div class="container">
+        <div class="col-3">
+          <img src="assets/img/mark-portrait.png" alt="mark's portrait photo">
+        </div>
+
+        <div class="col-3 contact">
+          <H1 class=""><strong>CONTACT</strong></H1>
+          <h2><strong>TEL:</strong> (07787)427-657</h2>
+          <h2><strong>EMAIL:</strong> code1hayden@gmail.com</h2>
+          <a class="button button-accent" href="https://linkedin.com/in/christopher-mark-hayden-01aaaa3b" target="_blank"><strong>LINKEDIN<strong></a>
+          <a class="button button-accent" href="https://github.com/lookandlearn76" target="_blank"><strong>GITHUB</strong></a>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h6>Home section knight Photograph courtesy of Henry Hustava at unsplash.com<a href = "https://unsplash.com/@enzo74" target="blank">Henry Hustava</a></h6>
+            <h6>Contact section Portrait courtesy of Haven Shank Photography<a href = "https://havenshank.myportfolio.com" target="blank">Haven Shank</a></h6>
+            <h6>The making of this website did not cause any known harm to any tigers or hyenas</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="assets/scripts/portfolio.js">
+
+    </script>
+  </body>
+</html>

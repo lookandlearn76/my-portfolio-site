@@ -1,11 +1,17 @@
+#WorkSection {
+  position: relative;
+  //top: 170px;
+  margin-bottom: 200px;
+}
+
 .portfolio {
-  margin: -5px 0;
+  position: relative;
+  top: 0px;
+  margin: 0 0;
   display:block;
   color: #fff;
   font-weight: 600;
 }
-
-
 
 .port-item {
   margin: 0;

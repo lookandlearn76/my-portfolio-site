@@ -1,14 +1,15 @@
 #contactSection {
   position: relative;
+  top:0px;
   background-color: #232323;
   color: #fff;
   padding: 50px 0;
-  margin: 30px;
+  margin: 0 0 0 0;
 
 }
 
 #contactSection img {
-  padding: 10px;
+  padding: 50px;
   @include atExLarge {
     margin-left: -100px;
   }
@@ -20,5 +21,5 @@
   padding-top: 20px;
   position: relative;
   transform: translateY(50%);
-  bottom: 50px;
+  bottom: 0px;
 }

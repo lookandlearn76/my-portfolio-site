@@ -8,20 +8,27 @@
   </head>
   <body>
 
-    <header id="navbar">
-      <nav id="nav-left">
-        <ul>
-          <li><a class="first" id="home" href="#homeSection">Home</a></li>
-        </ul>
-      </nav>
-      <nav id="nav-right">
-        <ul>
-          <li><a class="first" id="about" href="#aboutSection">About</a></li>
-          <li><a class="first" id="work" href="#workSection">Gallery</a></li>
-          <li><a class="first" id="toolbox" href="#toolboxSection">Toolbox</a></li>
-          <li><a class="first" id="contact" href="#contactSection">Contact</a></li>
-        </ul>
-      </nav>
+    <header id="site-header">
+      <div class="menu__wrapper">
+        <div class="menu-icon"><a id="btnCollapse" href="" class="menu-icon-anchor">
+          <div class="menu-icon__middle"></div></a>
+        </div>
+      </div>
+        <div id="navbar">
+          <nav id="nav-left">
+            <ul>
+              <li><a class="first" id="home" href="#homeSection">Home</a></li>
+            </ul>
+          </nav>
+          <nav id="nav-right">
+            <ul>
+              <li><a class="first" id="about" href="#aboutSection">About</a></li>
+              <li><a class="first" id="work" href="#workSection">Gallery</a></li>
+              <li><a class="first" id="toolbox" href="#toolboxSection">Toolbox</a></li>
+              <li><a class="first" id="contact" href="#contactSection">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
 
     <section id="homeSection" class="home-hero">
@@ -44,9 +51,9 @@
       </section>
     </div>
 
-    <section class="cta clearfix">
+    <section id="workSection" class="cta clearfix">
 
-      <section id="workSection" class="portfolio">
+      <section class="portfolio">
         <h1>Clients and Projects</h1>
         <!-- portfolio item number 1 -->
         <figure class="port-item">
@@ -101,7 +108,7 @@
     </section>
 
 
-    <section id="toolboxSection" data-matching-link="#toolbox-link">
+    <section id="toolboxSection" class="clearfix" data-matching-link="#toolbox-link">
       <div class="container wrapper">
         <h2 class="section-title"><span class="icon icon--star section-title__icon"></span>Some contents of my toolbox<strong> </strong></h2>
         <p>This isn't an exhaustive list but it gives some idea of what i've worked or am working with. I'm neither an expert, nor a beginner - I'm somewhere in-between. I just keep trucking on, learning more so that every day I get an "ah ha" moment. If what you see below doesn't suit the project you have - Lets talk about it. I'm always open to learning new things.</p>

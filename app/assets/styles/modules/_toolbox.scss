@@ -1,9 +1,16 @@
 #toolboxSection {
+  margin-top: 0px;
   position: relative;
   padding: 5em;
+  top: 0px;
   outline-offset: -3.75em;
   margin-left: 0;
   color: #fff;
   outline: 2px solid #43C0F6;
   background: #232323;
+}
+
+#toolboxSection h1 {
+  position: relative;
+  top: 70px;
 }

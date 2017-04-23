@@ -20,18 +20,19 @@
 .modal-content {
   position:fixed;
   bottom:0;
-  background-color: #43C0F6;
+  background-color: #232323;
   width: 100%;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
   animation-duration: 0.4s;
+  border: 10px solid #43C0F6;
 }
 
 .close {
   color: #aaa;
   float: right;
-  font-size: 25px;
+  font-size: 39px;
   font-weight: bold;
 }
 

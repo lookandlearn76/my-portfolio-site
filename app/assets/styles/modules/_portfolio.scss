@@ -5,6 +5,7 @@
 }
 
 .portfolio {
+  z-index: 1;
   position: relative;
   top: 0px;
   margin: 0 0;
@@ -13,9 +14,15 @@
   font-weight: 600;
 }
 
+figcaption a {
+  font-size:0.9em;
+  padding: 25px;
+}
+
 .port-item {
   margin: 0;
   position: relative;
+  width: 100%;
 }
 
 .port-item img {
@@ -24,7 +31,7 @@
 
 .item-description {
   position: absolute;
-  z-index: 100;
+  z-index: 3;
   bottom: 0em;
   left: 0em;
   right: 0em;
@@ -33,28 +40,35 @@
   padding-bottom: 2em;
 }
 
-.item-description p {
+.item-description h3 {
   margin: 1em;
+  font-size: 1em;
 }
 
-@include atSmall {
+.item-description h2 {
+  font-size: 2.5em;
+  @include atLarge {
+    font-size:1.5em;
+  }
+}
+
+@include atLarge {
   .port-item {
     width: 50%;
     float:left;
-  }
-}
-
-@include atMedium {
-  .port-item {
-    width: 33.333334%;
     overflow: hidden;
   }
-
   .item-description {
     transform: translateY(150%);
   }
-
   .port-item:hover .item-description {
     transform: translateY(0%);
+  }
+}
+
+@include atExLarge {
+  .port-item {
+    width: 33.333334%;
+    overflow: hidden;
   }
 }

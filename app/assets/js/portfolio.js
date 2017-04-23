@@ -60,3 +60,33 @@ $("#navbar a").click(function () {
 	 if ($("#btnCollapse").css('display')!='none')
 	 $("#btnCollapse").click();
 });
+
+var modal = document.getElementById("modal");
+
+var modal2 = document.getElementById("open-modal");
+
+var btn = document.getElementsByClassName("open-modal")[0];
+
+var span = document.getElementsByClassName('close')[0];
+
+$(document).ready(function() {
+	modal.style.display="none";
+})
+
+btn.onclick = function() {
+	modal.style.display="block";
+}
+
+modal2.onclick=function(){
+	modal.style.display="block";
+}
+
+span.onclick = function(){
+	modal.style.display="none";
+}
+
+window.onclick= function(event){
+	if(event.target== modal){
+		modal.style.display="none";
+	}
+}

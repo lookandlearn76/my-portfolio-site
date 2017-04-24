@@ -31,13 +31,19 @@ p:last-of-type {
 }
 
 @include atMedium {
-
   p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     line-height: 1.6;
+
   }
 
   .titleone {
     font-size: 3.6rem;
+  }
+}
+
+@include atLarge {
+  p {
+    font-size: 1.4rem;
   }
 }

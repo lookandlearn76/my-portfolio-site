@@ -83,11 +83,10 @@ nav ul {
   }
 }
 
-
 nav li {
   margin: 0 5px;
   display: inline-block;
-  margin: 1em;
+  margin: 1.5rem 1rem;
   background-color: #43C0F6;
   opacity: 1.5;
   width: 100%;
@@ -101,7 +100,7 @@ nav a {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
   padding: .5em;
   color: #FFF;
   opacity: 1.5;
@@ -137,20 +136,20 @@ nav a:focus {
 }
 
 .menu-icon {
-  width: 40px;
-  height: 20px;
+  width: 80px;
+  height: 40px;
   position: fixed;
   z-index: 100;
-  top: 20px;
-  right: 5px;
+  top: 40px;
+  right: 10px;
 
   &::before {
     content: "";
     position: absolute;
-    top: -4px;
-    left: -20px;
-    width: 40px;
-    height: 6px;
+    top: -8px;
+    left: -40px;
+    width: 80px;
+    height: 12px;
     background-color: #FFF;
     transform-origin: 0 0;
     transition: transform .3s ease-out;
@@ -158,10 +157,10 @@ nav a:focus {
 
   &__middle {
     position: absolute;
-    top: 10px;
-    left: -20px;
-    width: 40px;
-    height: 6px;
+    top: 20px;
+    left: -40px;
+    width: 80px;
+    height: 12px;
     background-color: #FFF;
     transition: all .3s ease-out;
   }
@@ -169,10 +168,10 @@ nav a:focus {
   &::after {
     content: "";
     position: absolute;
-    bottom: -10px;
-    left: -20px;
-    width: 40px;
-    height: 6px;
+    bottom: -20px;
+    left: -40px;
+    width: 80px;
+    height: 12px;
     background-color: #FFF;
     transform-origin: 0 100%;
     transition: transform .3s ease-out;

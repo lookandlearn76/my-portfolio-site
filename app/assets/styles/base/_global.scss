@@ -8,11 +8,13 @@ body {
   margin:0;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1
 }
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 .clearfix::after,

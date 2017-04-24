@@ -10,11 +10,30 @@ body {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 1
+  font-size: 1rem;
+  height:100%;
+  width: 100%;
+  background: no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 img {
   max-width: 100%;
+  -moz-min-height: 100%;
+  -moz-min-width: 100%;
+  -moz-max-height: 100%;
+  -moz-max-width: 100%;
+  -webkit-min-height: 100%;
+  -webkit-min-width: 100%;
+  -webkit-max-height: 100%;
+  -webkit-max-width: 100%;
 }
 
 .clearfix::after,

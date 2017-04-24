@@ -45,21 +45,12 @@ function setListen(){
 	})
 };
 
-$(document).ready(function(){
-	burgerOpen();
-});
-
-function burgerOpen(){
-	$("a.menu-icon-anchor").on("click", function(one){
-		one.preventDefault();
-		$("#navbar").toggleClass("open")
-	});
-};
 
 $("#navbar a").click(function () {
 	 if ($("#btnCollapse").css('display')!='none')
 	 $("#btnCollapse").click();
 });
+
 
 var modal = document.getElementById("modal");
 

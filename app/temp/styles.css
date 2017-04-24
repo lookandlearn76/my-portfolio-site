@@ -14,15 +14,28 @@ body {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 1;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+  background: no-repeat center center fixed;
+  background-size: 100%;
+  background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\0000327}}
 img {
   max-width: 100%;
+  -moz-min-height: 100%;
+  -moz-min-width: 100%;
+  -moz-max-height: 100%;
+  -moz-max-width: 100%;
+  -webkit-min-height: 100%;
+  -webkit-min-width: 100%;
+  -webkit-max-height: 100%;
+  -webkit-max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\0000339}}
 .clearfix::after,
 section::after,
 footer::after {
@@ -57,7 +70,7 @@ header {
           transition: transform .3s ease-in-out;
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\0000324}}
   #navbar {
     display: block;
@@ -87,7 +100,7 @@ nav ul {
   background-color: #43C0F6;
   margin: -2px;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\0000373}}
   nav ul {
     margin: 10px;
@@ -106,7 +119,7 @@ nav li {
   opacity: 1.5;
   width: 100%;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\0000386}}
   nav li {
     width: auto;
@@ -125,7 +138,7 @@ nav a {
   opacity: 1.5;
   margin: 0 5px;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\0000398}}
   nav a {
     font-size: 1rem;
@@ -139,7 +152,7 @@ nav a:focus {
   background-color: #232323;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003120}}
   #nav-right, #nav-left {
     float: none;
@@ -148,7 +161,7 @@ nav a:focus {
     z-index: 2;
   }
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003130}}
   #nav-right {
     float: right;
@@ -209,7 +222,7 @@ nav a:focus {
   -webkit-transition: -webkit-transform .3s ease-out;
           transition: transform .3s ease-out;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003138}}
   .menu-icon {
     display: none;
@@ -245,7 +258,7 @@ nav a:focus {
   padding: 10em 0;
   color: #FFF;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_home-hero\.scss}line{font-family:\000033}}
   .home-hero {
     background-image: url("../assets/img/knight3.png");
@@ -297,7 +310,7 @@ nav a:focus {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 60rem) and (min-width: 1010px) {
+@media (min-width: 60rem) and (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_home-hero\.scss}line{font-family:\0000362}}
   #aboutSection {
     background-image: url("../assets/img/code1.png");
@@ -319,7 +332,7 @@ nav a:focus {
     box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3);
   }
 }
-@media (min-width: 60rem) and (min-width: 1010px) {
+@media (min-width: 60rem) and (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_home-hero\.scss}line{font-family:\0000371}}
   .about-textbox {
     width: 60%;
@@ -389,6 +402,12 @@ nav a:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_button\.scss}line{font-family:\0000348}}
 .button-large {
   font-size: 2.5rem;
+}
+@media (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_button\.scss}line{font-family:\0000348}}
+  .button-large {
+    font-size: 1.5rem;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_typography\.scss}line{font-family:\000031}}
@@ -504,14 +523,14 @@ figcaption a {
 .item-description h2 {
   font-size: 3.5em;
 }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000348}}
   .item-description h2 {
     font-size: 1.5em;
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000356}}
   .port-item {
     width: 50%;

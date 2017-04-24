@@ -47,12 +47,12 @@ figcaption a {
 
 .item-description h2 {
   font-size: 3.5em;
-  @include atLarge {
+  @include atMedium {
     font-size:1.5em;
   }
 }
 
-@include atLarge {
+@include atMedium {
   .port-item {
     width: 50%;
     float:left;

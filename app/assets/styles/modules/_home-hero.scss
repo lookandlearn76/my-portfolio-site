@@ -6,7 +6,7 @@
   background-position: center center;
   padding: 10em 0;
   color: #FFF;
-  @include atLarge {
+  @include atMedium {
     background-image: url('../assets/img/knight3.png');
   }
 }
@@ -60,7 +60,7 @@
   }
 
   #aboutSection {
-    @include atLarge{
+    @include atMedium{
       background-image: url("../assets/img/code1.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -78,7 +78,7 @@
     top: 65px;
     text-align: center;
     box-shadow: 0 0 4em 0 rgba(0, 0, 0,.3);
-    @include atLarge {
+    @include atMedium {
       width: 60%;
     }
   }

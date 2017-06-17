@@ -1,3 +1,7 @@
+html {
+  background-color: #43C0F6;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\000031}}
 * {

@@ -47,7 +47,4 @@
 
 .button-large {
   font-size: 2.5rem;
-  @include atMedium {
-    font-size: 1.5rem;
-  }
 }

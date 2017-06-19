@@ -43,15 +43,15 @@ figcaption a {
 .item-description h3 {
   margin: 1em;
   @include atMedium {
-    font-size: .75em;
+    font-size: 1em;
   }
 }
 
 .item-description h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
-@include atMedium {
+@include atLarge {
   .port-item {
     width: 50%;
     float:left;

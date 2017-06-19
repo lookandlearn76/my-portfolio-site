@@ -336,12 +336,7 @@ nav a:focus {
     box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3);
   }
 }
-@media (min-width: 60rem) and (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_home-hero\.scss}line{font-family:\0000371}}
-  .about-textbox {
-    width: 60%;
-  }
-}
+
 
 @media (min-width: 60rem) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_home-hero\.scss}line{font-family:\0000386}}
@@ -848,6 +843,9 @@ footer .button {
 @media (min-width: 800px) {
   .item-description h3 {
     font-size: .75em;
+  }
+  .about-textbox {
+    width: 60%;
   }
 }
 

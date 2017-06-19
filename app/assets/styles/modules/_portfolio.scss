@@ -42,14 +42,13 @@ figcaption a {
 
 .item-description h3 {
   margin: 1em;
-  font-size: 1.3em;
+  @include atMedium {
+    font-size: .75em;
+  }
 }
 
 .item-description h2 {
-  font-size: 3.5em;
-  @include atMedium {
-    font-size:1.5em;
-  }
+  font-size: 1.5em;
 }
 
 @include atMedium {

@@ -1,13 +1,10 @@
-html{
-  background-color: #43C0F6;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\000031}}
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transition: all ease-in-out 250ms;
-          transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/base\/_global\.scss}line{font-family:\000036}}
@@ -71,7 +68,9 @@ header {
 #navbar.open {
   display: block;
   -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -195,10 +194,11 @@ nav a:focus {
   height: 12px;
   background-color: #FFF;
   -webkit-transform-origin: 0 0;
-      -ms-transform-origin: 0 0;
           transform-origin: 0 0;
   -webkit-transition: -webkit-transform .3s ease-out;
-          transition: transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003158}}
 .menu-icon__middle {
@@ -209,7 +209,7 @@ nav a:focus {
   height: 12px;
   background-color: #FFF;
   -webkit-transition: all .3s ease-out;
-          transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003168}}
 .menu-icon::after {
@@ -221,10 +221,11 @@ nav a:focus {
   height: 12px;
   background-color: #FFF;
   -webkit-transform-origin: 0 100%;
-      -ms-transform-origin: 0 100%;
           transform-origin: 0 100%;
   -webkit-transition: -webkit-transform .3s ease-out;
-          transition: transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
 }
 @media (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003138}}
@@ -236,20 +237,17 @@ nav a:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003186}}
 .menu-icon--close-x::before {
   -webkit-transform: rotate(45deg) scaleX(1.25);
-      -ms-transform: rotate(45deg) scaleX(1.25);
           transform: rotate(45deg) scaleX(1.25);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003190}}
 .menu-icon--close-x .site-header__menu-icon__middle {
   opacity: 0;
   -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
           transform: scaleX(0);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_header\.scss}line{font-family:\00003195}}
 .menu-icon--close-x::after {
   -webkit-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-      -ms-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
           transform: rotate(-45deg) scaleX(1.25) translateY(1px);
 }
 
@@ -333,7 +331,8 @@ nav a:focus {
     margin-right: 0;
     top: 65px;
     text-align: center;
-    box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.3);
   }
 }
 @media (min-width: 60rem) and (min-width: 800px) {
@@ -349,7 +348,6 @@ nav a:focus {
     top: 100px;
     left: 6rem;
     -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
             transform: translateX(0);
   }
 }
@@ -520,44 +518,41 @@ figcaption a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000343}}
 .item-description h3 {
   margin: 1em;
-  font-size: 1.3em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000348}}
-.item-description h2 {
-  font-size: 3.5em;
 }
 @media (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000348}}
-  .item-description h2 {
-    font-size: 1.5em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000343}}
+  .item-description h3 {
+    font-size: .75em;
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000350}}
+.item-description h2 {
+  font-size: 1.5em;
+}
+
 @media (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000355}}
   .port-item {
     width: 50%;
     float: left;
     overflow: hidden;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000360}}
   .item-description {
     -webkit-transform: translateY(150%);
-        -ms-transform: translateY(150%);
             transform: translateY(150%);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000363}}
   .port-item:hover .item-description {
     -webkit-transform: translateY(0%);
-        -ms-transform: translateY(0%);
             transform: translateY(0%);
   }
 }
 @media (min-width: 1030px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_portfolio\.scss}line{font-family:\0000369}}
   .port-item {
     width: 33.333334%;
     overflow: hidden;
@@ -597,6 +592,11 @@ footer .button {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_features\.scss}line{font-family:\000031}}
 .feature-item {
   margin-top: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_features\.scss}line{font-family:\000036}}
+.feature-item h3 {
+  font-size: 1.5em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/my-portfolio-site\/app\/assets\/styles\/modules\/_grid\.scss}line{font-family:\000031}}
@@ -726,7 +726,6 @@ footer .button {
   padding-top: 20px;
   position: relative;
   -webkit-transform: translateY(50%);
-      -ms-transform: translateY(50%);
           transform: translateY(50%);
   bottom: 95px;
 }
@@ -746,10 +745,8 @@ footer .button {
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.4s;
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
-  -webkit-animation-duration: 0.4s;
-          animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
 }
 
 /*modal content*/
@@ -761,10 +758,8 @@ footer .button {
   width: 100%;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
-  -webkit-animation-name: slideIn;
-          animation-name: slideIn;
-  -webkit-animation-duration: 0.4s;
-          animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
   border: 10px solid #43C0F6;
 }
 

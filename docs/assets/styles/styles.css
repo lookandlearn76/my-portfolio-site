@@ -841,3 +841,16 @@ footer .button {
 }
 
 /*# sourceMappingURL=styles.css.map */
+.feature-item h3 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .item-description h3 {
+    font-size: .75em;
+  }
+}
+
+.item-description h2 {
+  font-size: 1.5em;
+}
